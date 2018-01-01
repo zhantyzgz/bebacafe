@@ -19,9 +19,14 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../node_modules/startbootstrap-scrolling-nav/css/scrolling-nav.css",
+        "../node_modules/startbootstrap-scrolling-nav/vendor/bootstrap/css/bootstrap.min.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/startbootstrap-scrolling-nav/vendor/jquery/jquery.min.js",
+        "../node_modules/startbootstrap-scrolling-nav/vendor/bootstrap/js/bootstrap.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
