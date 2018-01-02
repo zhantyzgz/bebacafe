@@ -19,12 +19,11 @@ def spanish(): #from https://github.com/javierarce/palabras/blob/master/listado-
     set_of_words = set()
     with open(filename, encoding='utf-8') as file:
         for word in file.readlines():
-            word = word.strip('\n')
+            word = word.strip('\n').upper()
             unaccented_word = unidecode(word).upper()
             if pattern.match(unaccented_word):
                 if word in set_of_words: continue
                 hex_color = '#' + string_to_hex(unaccented_word)
-                word = word.upper()
                 result_list.append({'word': word, 'unaccented_word': unaccented_word, 'hex_color': hex_color})
                 set_of_words.add(word)
     result_list.sort(key=lambda x: x['unaccented_word'])

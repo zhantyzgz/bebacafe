@@ -1,6 +1,6 @@
 //hardcoded because I'm a lazy fuck
 //found these using a python script, available in /src/python. txt dict file copied from https://github.com/javierarce/palabras/blob/master/listado-general.txt
-export var wordList = [
+export const wordList = [
     {
         "word": "A",
         "unaccented_word": "A",
@@ -240,11 +240,6 @@ export var wordList = [
         "word": "ACASO",
         "unaccented_word": "ACASO",
         "hex_color": "#0ACA50"
-    },
-    {
-        "word": "ACATES",
-        "unaccented_word": "ACATES",
-        "hex_color": "#ACA7E5"
     },
     {
         "word": "ACATES",
@@ -685,11 +680,6 @@ export var wordList = [
         "word": "AITÉ",
         "unaccented_word": "AITE",
         "hex_color": "#A17E"
-    },
-    {
-        "word": "AS",
-        "unaccented_word": "AS",
-        "hex_color": "#0A5"
     },
     {
         "word": "AS",
@@ -1197,11 +1187,6 @@ export var wordList = [
         "hex_color": "#0BE"
     },
     {
-        "word": "BE",
-        "unaccented_word": "BE",
-        "hex_color": "#0BE"
-    },
-    {
         "word": "BEATA",
         "unaccented_word": "BEATA",
         "hex_color": "#0BEA7A"
@@ -1697,11 +1682,6 @@ export var wordList = [
         "hex_color": "#CAB0"
     },
     {
-        "word": "CABO",
-        "unaccented_word": "CABO",
-        "hex_color": "#CAB0"
-    },
-    {
         "word": "CACA",
         "unaccented_word": "CACA",
         "hex_color": "#CACA"
@@ -2122,11 +2102,6 @@ export var wordList = [
         "hex_color": "#0CE"
     },
     {
-        "word": "CE",
-        "unaccented_word": "CE",
-        "hex_color": "#0CE"
-    },
-    {
         "word": "CEA",
         "unaccented_word": "CEA",
         "hex_color": "#CEA"
@@ -2160,11 +2135,6 @@ export var wordList = [
         "word": "CEBTÍ",
         "unaccented_word": "CEBTI",
         "hex_color": "#0CEB71"
-    },
-    {
-        "word": "CECA",
-        "unaccented_word": "CECA",
-        "hex_color": "#CECA"
     },
     {
         "word": "CECA",
@@ -3552,11 +3522,6 @@ export var wordList = [
         "hex_color": "#0E5C0C1A"
     },
     {
-        "word": "ESCOCIA",
-        "unaccented_word": "ESCOCIA",
-        "hex_color": "#0E5C0C1A"
-    },
-    {
         "word": "ESCODA",
         "unaccented_word": "ESCODA",
         "hex_color": "#E5C0DA"
@@ -4002,11 +3967,6 @@ export var wordList = [
         "hex_color": "#0FE"
     },
     {
-        "word": "FE",
-        "unaccented_word": "FE",
-        "hex_color": "#0FE"
-    },
-    {
         "word": "FEBEO",
         "unaccented_word": "FEBEO",
         "hex_color": "#0FEBE0"
@@ -4422,11 +4382,6 @@ export var wordList = [
         "hex_color": "#06E"
     },
     {
-        "word": "GE",
-        "unaccented_word": "GE",
-        "hex_color": "#06E"
-    },
-    {
         "word": "GEA",
         "unaccented_word": "GEA",
         "hex_color": "#6EA"
@@ -4752,11 +4707,6 @@ export var wordList = [
         "hex_color": "#000"
     },
     {
-        "word": "O",
-        "unaccented_word": "O",
-        "hex_color": "#000"
-    },
-    {
         "word": "OASIS",
         "unaccented_word": "OASIS",
         "hex_color": "#00A515"
@@ -4907,11 +4857,6 @@ export var wordList = [
         "hex_color": "#005"
     },
     {
-        "word": "OS",
-        "unaccented_word": "OS",
-        "hex_color": "#005"
-    },
-    {
         "word": "OSA",
         "unaccented_word": "OSA",
         "hex_color": "#05A"
@@ -4995,11 +4940,6 @@ export var wordList = [
         "word": "OTOBA",
         "unaccented_word": "OTOBA",
         "hex_color": "#0070BA"
-    },
-    {
-        "word": "S",
-        "unaccented_word": "S",
-        "hex_color": "#005"
     },
     {
         "word": "S",
@@ -5130,11 +5070,6 @@ export var wordList = [
         "word": "SATO",
         "unaccented_word": "SATO",
         "hex_color": "#5A70"
-    },
-    {
-        "word": "SE",
-        "unaccented_word": "SE",
-        "hex_color": "#05E"
     },
     {
         "word": "SE",
@@ -5340,11 +5275,6 @@ export var wordList = [
         "word": "SETO",
         "unaccented_word": "SETO",
         "hex_color": "#5E70"
-    },
-    {
-        "word": "SI",
-        "unaccented_word": "SI",
-        "hex_color": "#051"
     },
     {
         "word": "SI",
@@ -5602,16 +5532,6 @@ export var wordList = [
         "hex_color": "#007"
     },
     {
-        "word": "T",
-        "unaccented_word": "T",
-        "hex_color": "#007"
-    },
-    {
-        "word": "TA",
-        "unaccented_word": "TA",
-        "hex_color": "#07A"
-    },
-    {
         "word": "TA",
         "unaccented_word": "TA",
         "hex_color": "#07A"
@@ -5857,11 +5777,6 @@ export var wordList = [
         "hex_color": "#07E"
     },
     {
-        "word": "TE",
-        "unaccented_word": "TE",
-        "hex_color": "#07E"
-    },
-    {
         "word": "TÉ",
         "unaccented_word": "TE",
         "hex_color": "#07E"
@@ -6000,11 +5915,6 @@ export var wordList = [
         "word": "TETADA",
         "unaccented_word": "TETADA",
         "hex_color": "#7E7ADA"
-    },
-    {
-        "word": "TI",
-        "unaccented_word": "TI",
-        "hex_color": "#071"
     },
     {
         "word": "TI",
@@ -6280,11 +6190,6 @@ export var wordList = [
         "word": "TOSTADA",
         "unaccented_word": "TOSTADA",
         "hex_color": "#07057ADA"
-    },
-    {
-        "word": "TOSTADO",
-        "unaccented_word": "TOSTADO",
-        "hex_color": "#07057AD0"
     },
     {
         "word": "TOSTADO",
