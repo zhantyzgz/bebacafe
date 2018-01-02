@@ -45,13 +45,15 @@
     </section>
 
     <section id="colors">
-      <!-- TO DO: load colors. sort by H, L, A, text-->
-      <div class="container-fluid">
-        <div class="row" style="height:80%">
-          <div class="col-lg-2 col xs-3" style="background:#bebacafe">
-            <div class="color-block">
-              #BEBACAFE
-            </div>
+      <!-- TO DO: sort by H, L, A, text; fix mobile view-->
+      <div *ngFor="let c of colorList; let i = index" class="container-fluid">
+        <!-- if viewport == xs...-->
+        <!-- OnClick sort by-->
+        <div *ngIf="i % 6 == 0" class="row">
+          <div *ngFor="let colorWord of colorList | slice:i:i+6" class="col-lg-2 col-xs-4" [style.background]="colorWord.hex">
+              <div class="color-block" [ngStyle]="{'color': colorWord.fontColor}">
+                {{colorWord.word}}
+              </div>
           </div>
         </div>
       </div>
